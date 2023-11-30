@@ -1,7 +1,7 @@
 import "./LookBookPage.scss";
 
 import Header from "../Header/Header";
-import LookCardItem from "../LookCardItem/LookCardItem";
+import LookCard from "../LookCard/LookCard";
 import Footer from "../Footer/Footer";
 
 const LookBookPage: React.FC = () => {
@@ -12,11 +12,11 @@ const LookBookPage: React.FC = () => {
         <main className="look-book">
             <h1 className="look-book__title">LookBook</h1>
             <div className="look-book__container">
-                <LookCardItem />
-                <LookCardItem />
-                <LookCardItem />
-                <LookCardItem />
-                <LookCardItem />
+                <LookCard />
+                <LookCard />
+                <LookCard />
+                <LookCard />
+                <LookCard />
             </div>
         </main>
         <Footer />    

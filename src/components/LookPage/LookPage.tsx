@@ -1,7 +1,7 @@
 import "./LookPage.scss"
 
 import Header from "../Header/Header";
-import LookCard from "../LookCardItem/LookCardItem";
+import LookCard from "../LookCard/LookCard";
 import CardItem from "../CardItem/CardItem";
 import Footer from "../Footer/Footer";
 
