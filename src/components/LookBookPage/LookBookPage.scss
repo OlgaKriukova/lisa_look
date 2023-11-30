@@ -1,0 +1,22 @@
+.look-book {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 207, 209);
+    flex-grow: 1;
+    min-width: 100vw;
+
+    &__title {
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #fff;
+    }   
+
+    &__container {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

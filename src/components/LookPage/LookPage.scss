@@ -1,0 +1,34 @@
+.look-page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    background-color: rgb(205, 207, 209);
+    
+    
+
+    &__title {
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+    &__container {
+        
+        margin: 0 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: repeat(feat-content);
+        column-gap: 10px;
+    }
+
+    &__container-card {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 0.25fr);
+        
+        gap: 30px;
+        // column-gap: 60px;
+    }
+    
+}

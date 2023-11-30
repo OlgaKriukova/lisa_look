@@ -1,0 +1,61 @@
+.card-item {
+    margin: 0 auto;
+    // margin-top: 15px;
+    // margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    width: 230px;
+    border-radius: 6px;
+    background-color: #fff;
+
+    &__img {
+        flex-grow: 1;
+    }
+
+    &__img:hover {
+        transform: scale(1.1);
+        
+    }
+
+    &__figcaption {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+        text-align: left;
+    }
+
+    &__link {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: rgb(205, 207, 209);
+        text-decoration: none;
+        border-bottom: 1px solid rgb(205, 207, 209);
+        align-items: flex-end;
+    }
+
+    &__text-name {
+        margin: 0;
+        margin-right: 3px;
+        font-size: 12px;
+        width: 80%;
+
+    }
+
+    &__text-price {
+        margin: 0;
+        font-size: 10px;
+        width: 20%;
+    }
+
+    &__in-shop {
+        margin: 0;
+        padding: 5px;
+        font-size: 10px;
+        color: rgb(172, 174, 176);
+        text-decoration: none;
+        text-align: right;
+    }
+}

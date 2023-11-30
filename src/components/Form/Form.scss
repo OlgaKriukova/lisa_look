@@ -1,0 +1,108 @@
+.form {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        text-align: center;
+        color: rgb(134, 90, 134);
+        margin-bottom: 20px;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__field-text {
+        margin-bottom: 30px;
+        border: 1.5px solid rgb(134, 90, 134); 
+        border-radius: 6px;
+    }
+
+    &__title-text {
+        color: rgb(134, 90, 134);
+    }
+
+    &__input-text {
+        // display: block;
+        min-width: 960px;
+        border: none;
+        padding: none;
+        padding-bottom: 1px solid;
+    }
+
+    &__input-text-alt {
+        min-width: 940px;
+        border: none;
+        padding: none;
+        padding-bottom: 1px solid;
+    }
+
+    &__field-radio, &__field-checkbox{
+        margin-bottom: 30px;
+        display: flex;
+        border: 1.5px solid rgb(134, 90, 134);
+        border-radius: 6px;
+    }
+
+    &__title-radio, &__title-checkbox {
+        color: rgb(134, 90, 134);
+    }
+
+    &__field-checkbox {
+        flex-direction: column;
+    }
+
+
+    &__label-box {
+        display: flex;
+        color: rgb(134, 90, 134);
+        margin-bottom: 7px;
+
+    }
+
+    &__label-box:last-child {
+        margin-bottom: 0;
+    }
+
+    &__label {
+        margin: 0;
+        margin-right: 15px;
+        align-self: center;
+    }
+
+    &__input-radio {
+        margin: 0;
+        margin-right: 7px;
+        accent-color: rgb(134, 90, 134);
+    }
+
+    &__input-radio:checked {
+        accent-color: rgb(103, 134, 90);
+    }
+
+    &__input-checkbox + &__title-checkbox::before {
+        margin: 0;
+        margin-right: 7px;
+        accent-color: rgb(134, 90, 134);
+        border-color: rgb(134, 90, 134);
+    }
+    
+    &__input-checkbox:checked {
+        accent-color: rgb(103, 134, 90);
+    }
+
+    &__button {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        width: 200px;
+        padding: 25px;
+        color: #fff;
+        border-radius: 6px;
+        background-color: rgb(134, 90, 134);
+        border: none;
+
+    }
+}

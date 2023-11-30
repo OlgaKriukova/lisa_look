@@ -1,0 +1,54 @@
+.look-card-item {
+    max-width: 1172px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    // border-radius: 6px;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    // border-bottom: 2px solid #fff;
+    background-color: #fff;
+
+    &__img {
+        margin: 0 auto;
+        width: 30%;
+        height: 700px;
+    }
+
+    &__img:hover {
+        // transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    &__figcaption {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: rgb(205, 207, 209);
+        text-decoration: none;
+        border-bottom: 1px solid rgb(205, 207, 209);
+        align-items: flex-end;
+    }
+
+    &__text-name {
+        margin: 0;
+        margin-right: 3px;
+        font-size: 12px;
+        width: 80%;
+
+    }
+
+    &__text-price {
+        margin: 0;
+        font-size: 10px;
+        width: 20%;
+        
+        
+    }
+}
